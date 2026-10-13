@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="rightdoor.png" width="696" height="720">
+	<SubTexture name="closing0000" x="119" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0001" x="190" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0002" x="261" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0003" x="332" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0004" x="403" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0005" x="474" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0006" x="545" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0007" x="616" y="0" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0008" x="0" y="359" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0009" x="71" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0010" x="142" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0011" x="213" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0012" x="284" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0013" x="355" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0014" x="426" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0015" x="497" y="360" width="71" height="360" frameX="-396" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="closing0016" x="568" y="360" width="128" height="360" frameX="-339" frameY="-68" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="light0000" x="0" y="0" width="119" height="359" frameX="-348" frameY="-68" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>

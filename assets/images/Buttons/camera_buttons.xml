@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="camera_buttons.png" width="264" height="24">
+	<SubTexture name="cam0000" x="0" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0001" x="24" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0002" x="48" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0003" x="72" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0004" x="96" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0005" x="120" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0006" x="144" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0007" x="168" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0008" x="192" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0009" x="216" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+	<SubTexture name="cam0010" x="240" y="0" width="24" height="24" frameX="-0" frameY="-0" frameWidth="24" frameHeight="24"/>
+</TextureAtlas>
