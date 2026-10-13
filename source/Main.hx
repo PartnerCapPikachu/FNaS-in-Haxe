@@ -39,18 +39,18 @@ class Main extends openfl.display.Sprite
       AssetManager.getOgg(ogg);
     }
 
-		//gulp
-		#if (cpp || hl || java || neko)
-		#if (cpp || java || neko)
-		Gc.run(true);
-		#end
-		#if cpp
-		Gc.compact();
-		#end
-		#if hl
-		Gc.major();
-		#end
-		#end
+	//gulp
+	#if (cpp || hl || java || neko)
+	#if (cpp || java || neko)
+	Gc.run(true);
+	#end
+	#if cpp
+	Gc.compact();
+	#end
+	#if hl
+	Gc.major();
+	#end
+	#end
   }
 
   public function new():Void
