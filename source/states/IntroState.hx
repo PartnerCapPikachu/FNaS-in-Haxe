@@ -9,8 +9,6 @@ class IntroState extends FlxState
 
   override function create():Void
   {
-    Main.cache();
-
     super.create();
     persistentUpdate = true;
 
