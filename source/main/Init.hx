@@ -4,8 +4,10 @@ class Init extends FlxState
 {
   override function create():Void
   {
+	Main.cache();
+
     FlxG.autoPause = false;
-    FlxG.fixedTimestep = false;
+    //FlxG.fixedTimestep = false;
     FlxG.game.focusLostFramerate = 60;
 	FlxG.scaleMode = new flixel.system.scaleModes.PixelPerfectScaleMode();
 
