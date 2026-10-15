@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="office.png" width="585" height="500">
+	<SubTexture name="office0000" x="0" y="0" width="500" height="500"/>
+	<SubTexture name="poster0000" x="500" y="0" width="85" height="120"/>
+	<SubTexture name="poster0001" x="500" y="120" width="85" height="120"/>
+	<SubTexture name="fan0000" x="500" y="240" width="43" height="62"/>
+	<SubTexture name="fan0001" x="500" y="302" width="43" height="62"/>
+</TextureAtlas>

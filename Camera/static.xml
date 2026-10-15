@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="static.png" width="1478" height="500">
+	<SubTexture name="Camera_Static_0000" x="0" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera_Static_0001" x="500" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera_Static_0002" x="1000" y="0" width="478" height="500" frameX="-12" frameY="-0" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>

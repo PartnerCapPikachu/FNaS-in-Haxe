@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="tails.png" width="534" height="361">
+	<SubTexture name="flicker0000" x="0" y="0" width="267" height="361" frameX="-11" frameY="-2" frameWidth="289" frameHeight="363"/>
+	<SubTexture name="flicker0001" x="0" y="0" width="267" height="361" frameX="-11" frameY="-2" frameWidth="289" frameHeight="363"/>
+	<SubTexture name="flicker0002" x="0" y="0" width="267" height="361" frameX="-11" frameY="-2" frameWidth="289" frameHeight="363"/>
+	<SubTexture name="tails" x="267" y="0" width="267" height="361" frameX="-11" frameY="-2" frameWidth="289" frameHeight="363"/>
+</TextureAtlas>

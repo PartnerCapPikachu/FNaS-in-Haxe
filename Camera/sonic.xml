@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sonic.png" width="1394" height="496">
+	<SubTexture name="Camera1_0000" x="1204" y="0" width="190" height="334" frameX="-161" frameY="-166" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera1_0001" x="1000" y="0" width="204" height="335" frameX="-180" frameY="-165" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera2_0000" x="345" y="408" width="175" height="75" rotated="true" frameX="-214" frameY="-119" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera3_0000" x="0" y="0" width="345" height="436" rotated="true" frameX="-58" frameY="-155" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera4_0000" x="665" y="363" width="142" height="133" frameX="-54" frameY="-216" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera6_0000" x="665" y="0" width="335" height="363" rotated="true" frameX="-0" frameY="-165" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera9_0000" x="807" y="363" width="263" height="117" rotated="true" frameX="-68" frameY="-17" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera11_0000" x="345" y="0" width="320" height="408" frameX="-178" frameY="-92" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>
