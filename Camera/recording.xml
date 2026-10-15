@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TextureAtlas imagePath="recording.png" width="992" height="495">
-	<SubTexture name="Camera_Square_Thingy_0000" x="0" y="0" width="496" height="495" frameX="-1" frameY="-2" frameWidth="500" frameHeight="500"/>
-	<SubTexture name="Camera_Square_Thingy_0001" x="496" y="0" width="496" height="495" frameX="-1" frameY="-2" frameWidth="500" frameHeight="500"/>
-</TextureAtlas>

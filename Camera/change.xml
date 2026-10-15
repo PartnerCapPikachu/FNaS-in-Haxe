@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TextureAtlas imagePath="change.png" width="1000" height="500">
-	<SubTexture name="Camera_Change_0000" x="0" y="0" width="500" height="500"/>
-	<SubTexture name="Camera_Change_0001" x="0" y="0" width="500" height="500"/>
-	<SubTexture name="Camera_Change_0002" x="500" y="0" width="500" height="500"/>
-	<SubTexture name="Camera_Change_0003" x="500" y="0" width="500" height="500"/>
-</TextureAtlas>
