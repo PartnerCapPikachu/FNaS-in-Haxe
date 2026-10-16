@@ -3,7 +3,7 @@
 
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Five Nights at Sonic's Haxe" file="FNaS" main="Main" version="0.0.1" company="Pumpsuki"/>
+	<app title="Five Nights at Sonic's Haxe" file="FNaS" main="game.Main" version="0.0.1" company="Pumpsuki"/>
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
@@ -24,14 +24,16 @@
 
 	<set name="BUILD_DIR" value="export" unless="debug"/>
 	<set name="BUILD_DIR" value="debug" if="debug"/>
+
 	<source path="source"/>
 	<assets path="assets"/>
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
-	<haxelib name="lime" version="8.3.2"/>
-	<haxelib name="openfl" version="9.5.2"/>
-	<haxelib name="flixel" version="6.2.0"/>
+	<!-- haxelib git lime https://github.com/swordcubes-grave-of-shite/lime -->
+	<haxelib name="lime" version="git"/>
+	<haxelib name="openfl" version="9.3.3"/>
+	<haxelib name="flixel" version="5.6.1"/>
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
@@ -76,7 +78,7 @@
 	<haxedef name="openfl_enable_handle_error"/>
 	<haxedef name="lime_disable_assets_version"/>
 
-	<haxedef name="analyzer-optimize" unless="debug"/>
+	<haxedef name="analyzer-optimize"/>
 	<haxedef name="no-deprecation-warnings" unless="debug"/>
 	<haxedef name="HXCPP_OPTIMIZE_LINK" unless="debug"/>
 	<haxeflag name="-dce" value="full"/>
