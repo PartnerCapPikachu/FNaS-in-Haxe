@@ -1,0 +1,37 @@
+name: Build
+
+on:
+  push:
+    branches: ["main", "prBuild"]
+  pull_request:
+    branches: ["main", "prBuild"]
+
+  workflow_dispatch:
+
+jobs:
+  buildWindows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.7
+      - uses: krdlab/setup-haxe@master
+
+      with:
+        haxe-version: 4.3.7
+
+      - name: Install Haxelib
+      run: |
+      haxelib setup C:/haxelib
+      haxelib install hxcpp > /dev/null --quiet
+      haxelib git lime https://github.com/swordcubes-grave-of-shite/lime
+      haxelib install flixel 5.6.1
+      haxelib install openfl 9.3.3
+
+      - name: Compile
+      haxelib run lime build windows -release
+
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v4.3.4
+        with:
+          name: windowsBuild
+          path: export/windows/bin
