@@ -42,6 +42,7 @@ class AssetManager
 	}
 
 	static var trackedBitmaps:Map<String, BitmapData> = [];
+	@:access(openfl.display.BitmapData)
 	static function getBitmap(path:String):BitmapData
 	{
 		var bitmap:BitmapData = trackedBitmaps[path];
@@ -49,7 +50,13 @@ class AssetManager
 			return bitmap;
 
 		bitmap = BitmapData.fromFile(path);
+		bitmap.getTexture(FlxG.stage.context3D);
 		bitmap.disposeImage();
+		bitmap.__surface = null;
+		bitmap.image.data = null;
+		bitmap.image.buffer = null;
+		bitmap.image = null;
+
 		trackedBitmaps.set(path, bitmap);
 		return bitmap;
 	}
