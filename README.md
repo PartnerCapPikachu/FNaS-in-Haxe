@@ -4,8 +4,7 @@
 
 # About
 
-A port of Five Night's at Sonic's to the HaxeFlixel game engine.
-
+A port of Five Nights at Sonic's to the HaxeFlixel game engine.
 Specifically, this is the original 1.0 release of the game, not 2.0.
 
 # Notes
