@@ -24,6 +24,7 @@ jobs:
           haxelib setup C:/haxelib
           haxelib install hxcpp --quiet
           haxelib install format --quiet --skip-dependencies
+          haxelib install hxp --quiet --skip-dependencies
           haxelib git lime https://github.com/swordcubes-grave-of-shite/lime --quiet --skip-dependencies
           haxelib install openfl 9.3.3 --quiet --skip-dependencies
           haxelib install flixel 5.6.1 --quiet --skip-dependencies
