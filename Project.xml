@@ -94,7 +94,12 @@
 
 	<!-- _________________________________ Custom _______________________________ -->
 
+	<!--Game icons-->
+	<!--TODO: Fix icon for Medium view in File Explorer?-->
 	<icon path="icons/icon16.png" size='16'/>
 	<icon path="icons/icon32.png" size='32'/>
+
+	<!--Delete the unused-->
+	<postbuild cmd="del /Q /S icon.ico &amp; del /Q /S lime.ndll"/>
 
 </project>
