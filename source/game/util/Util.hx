@@ -1,5 +1,7 @@
 package game.util;
 
+import game.objects.Button;
+
 @:publicFields
 class Util
 {
@@ -16,18 +18,20 @@ class Util
     return result;
   }
 
-  static function mouseOverlaps(object:FlxSprite, ?camera:FlxCamera, offsetX:Float = 0, offsetY:Float = 0):Bool
+  static function mouseOverlaps(object:Button, ?camera:FlxCamera, offsetX:Float = 0, offsetY:Float = 0):Bool
   {
-    camera ??= FlxG.camera;
+    var zoom:Float = (camera ?? FlxG.camera).zoom;
     var mousePos = FlxG.mouse.getScreenPosition(camera);
 
-    var math:Float = (mousePos.x + offsetX) * camera.zoom;
-    var overlapsX:Bool = math >= (object.x * camera.zoom);
-    overlapsX = overlapsX && math <= ((object.x + object.width) * camera.zoom);
+    var pointerPos:Float = (mousePos.x - offsetX) * zoom;
+    var objectPos:Float = (object.hitbox.x) * zoom;
+    var objectPos2:Float = (object.hitbox.x + object.hitbox.scale.x) * zoom;
+    var overlapsX:Bool = pointerPos >= objectPos && pointerPos <= objectPos2;
 
-    math = (mousePos.y + offsetY) * camera.zoom;
-    var overlapsY:Bool = math >= (object.y * camera.zoom);
-    overlapsY = overlapsY && math <= ((object.y + object.height) * camera.zoom);
+    var pointerPos:Float = (mousePos.y - offsetY) * zoom;
+    var objectPos:Float = (object.hitbox.y) * zoom;
+    var objectPos2:Float = (object.hitbox.y + object.hitbox.scale.y) * zoom;
+    var overlapsY:Bool = pointerPos >= objectPos && pointerPos <= objectPos2;
 
     return overlapsX && overlapsY;
   }
