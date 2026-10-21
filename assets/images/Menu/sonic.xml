@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sonic.png" width="260" height="363">
+	<SubTexture name="flicker0000" x="0" y="0" width="130" height="363" frameX="-8" frameY="-16" frameWidth="138" frameHeight="379"/>
+	<SubTexture name="flicker0001" x="0" y="0" width="130" height="363" frameX="-8" frameY="-16" frameWidth="138" frameHeight="379"/>
+	<SubTexture name="flicker0002" x="0" y="0" width="130" height="363" frameX="-8" frameY="-16" frameWidth="138" frameHeight="379"/>
+	<SubTexture name="sonic0000" x="130" y="0" width="130" height="363" frameX="-8" frameY="-16" frameWidth="138" frameHeight="379"/>
+</TextureAtlas>

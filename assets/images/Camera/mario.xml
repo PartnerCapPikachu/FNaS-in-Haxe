@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="mario.png" width="845" height="941">
+	<SubTexture name="Camera1_0000" x="532" y="451" width="210" height="456" frameX="-22" frameY="-44" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera1_0001" x="322" y="478" width="210" height="459" frameX="-21" frameY="-41" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera2_0000" x="742" y="318" width="103" height="282" frameX="-325" frameY="-218" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera5_0000" x="690" y="0" width="137" height="318" frameX="-334" frameY="-151" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera5_0001" x="0" y="0" width="438" height="478" frameX="-3" frameY="-22" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera7_0000" x="438" y="0" width="252" height="451" frameX="-104" frameY="-49" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera8_0000" x="742" y="600" width="94" height="224" frameX="-296" frameY="-38" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Camera10_0000" x="0" y="478" width="322" height="463" frameX="-154" frameY="-37" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>
