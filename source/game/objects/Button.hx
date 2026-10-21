@@ -55,7 +55,6 @@ class Button extends Sprite
   {
     if (!interactable)
     {
-      visible = false;
       return;
     }
 

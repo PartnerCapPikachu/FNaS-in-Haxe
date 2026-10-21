@@ -56,7 +56,6 @@ class AssetManager
 		bitmap.image.data = null;
 		bitmap.image.buffer = null;
 		bitmap.image = null;
-
 		trackedBitmaps.set(path, bitmap);
 		return bitmap;
 	}

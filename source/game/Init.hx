@@ -4,10 +4,10 @@ class Init extends FlxState
 {
   override function create():Void
   {
-		Main.cache();
-
+		FlxG.stage.application.window.vsync = true;
+		FlxG.mouse.useSystemCursor = true;
     FlxG.autoPause = false;
-    //FlxG.fixedTimestep = false;
+    FlxG.fixedTimestep = false;
     FlxG.game.focusLostFramerate = 60;
 		FlxG.scaleMode = new flixel.system.scaleModes.PixelPerfectScaleMode();
 
@@ -22,6 +22,7 @@ class Init extends FlxState
 				resetSpriteCache(FlxG.game);
 		});
 
+		Main.cache();
 		FlxG.switchState(new game.states.IntroState());
   }
 

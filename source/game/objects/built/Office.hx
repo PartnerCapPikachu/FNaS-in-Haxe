@@ -89,8 +89,7 @@ class Office extends flixel.group.FlxSpriteGroup
     buttonDoreL.setHitboxOffset(-16, -16.5);
     buttonDoreL.clickToTrigger = true;
     buttonDoreL.setMouseCheckOffset(4, 2);
-    buttonDoreL.onHitboxHit = function():Void
-    {
+    buttonDoreL.onHitboxHit = ()->{
       buttonDoreL.play(leftDoorClosed ? 'off' : 'on', true);
       if (leftDoorClosed) doreL.animation.curAnim.reverse();
       else doreL.animation.curAnim.play(true, false, doreL.animation.curAnim.curFrame);
@@ -106,8 +105,7 @@ class Office extends flixel.group.FlxSpriteGroup
     buttonLightL.setHitboxOffset(-16, -16.5);
     buttonLightL.clickToTrigger = true;
     buttonLightL.setMouseCheckOffset(4, 2);
-    buttonLightL.onHitboxHit = function():Void
-    {
+    buttonLightL.onHitboxHit = ()->{
       buttonLightL.play(lightL.visible ? 'off' : 'on', true);
       leftLightOn = !leftLightOn;
       lightL.visible = leftLightOn;
@@ -130,8 +128,7 @@ class Office extends flixel.group.FlxSpriteGroup
     buttonDoreR.setHitboxOffset(-16, -16.5);
     buttonDoreR.clickToTrigger = true;
     buttonDoreR.setMouseCheckOffset(4, 2);
-    buttonDoreR.onHitboxHit = function():Void
-    {
+    buttonDoreR.onHitboxHit = ()->{
       buttonDoreR.play(rightDoorClosed ? 'off' : 'on', true);
       if (rightDoorClosed) doreR.animation.curAnim.reverse();
       else doreR.animation.curAnim.play(true, false, doreR.animation.curAnim.curFrame);
@@ -148,8 +145,7 @@ class Office extends flixel.group.FlxSpriteGroup
     buttonLightR.setHitboxOffset(-16, -16.5);
     buttonLightR.clickToTrigger = true;
     buttonLightR.setMouseCheckOffset(4, 2);
-    buttonLightR.onHitboxHit = function():Void
-    {
+    buttonLightR.onHitboxHit = ()->{
       buttonLightR.play(lightR.visible ? 'off' : 'on', true);
       rightLightOn = !rightLightOn;
       lightR.visible = rightLightOn;

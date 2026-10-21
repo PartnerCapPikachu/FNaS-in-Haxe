@@ -23,19 +23,11 @@ class Main extends openfl.display.Sprite
   {
     var images:Array<String> = Util.scanDirectory('images');
     while (images.length != 0)
-    {
-      var image:String = images.shift();
-      image = image.substr('assets/images/'.length);
-      AssetManager.getImage(image);
-    }
+      AssetManager.getSparrow(images.shift().substr('assets/images/'.length));
 
     var oggs:Array<String> = Util.scanDirectory('music', '.ogg').concat(Util.scanDirectory('sounds', '.ogg'));
     while (oggs.length != 0)
-    {
-      var ogg:String = oggs.shift();
-      ogg.substr('assets/'.length);
-      AssetManager.getOgg(ogg);
-    }
+      AssetManager.getOgg(oggs.shift().substr('assets/'.length));
 
 	//gulp
 	#if (cpp || hl || java || neko)
@@ -54,6 +46,7 @@ class Main extends openfl.display.Sprite
   public function new():Void
   {
     super();
-    addChild(new FlxGame(500, 500, Init, 60, 60, true, false));
+    addChild(new FlxGame(500, 500, Init, 60, 60, false, #if FLX_DEBUG false #else true #end));
+    addChild(new game.display.FPS());
   }
 }
