@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TextureAtlas imagePath="dore_button.png" width="50" height="39">
-	<SubTexture name="dore_off" x="0" y="0" width="25" height="39" frameX="-4" frameY="-2" frameWidth="32" frameHeight="45"/>
-	<SubTexture name="dore_on" x="25" y="0" width="25" height="39" frameX="-4" frameY="-2" frameWidth="32" frameHeight="45"/>
-</TextureAtlas>

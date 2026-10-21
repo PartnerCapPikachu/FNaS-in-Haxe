@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TextureAtlas imagePath="yoshi.png" width="554" height="346">
-	<SubTexture name="flicker0000" x="0" y="0" width="277" height="346" frameX="-9" frameY="-4" frameWidth="296" frameHeight="350"/>
-	<SubTexture name="flicker0001" x="0" y="0" width="277" height="346" frameX="-9" frameY="-4" frameWidth="296" frameHeight="350"/>
-	<SubTexture name="flicker0002" x="0" y="0" width="277" height="346" frameX="-9" frameY="-4" frameWidth="296" frameHeight="350"/>
-	<SubTexture name="yoshi" x="277" y="0" width="277" height="346" frameX="-9" frameY="-4" frameWidth="296" frameHeight="350"/>
-</TextureAtlas>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TextureAtlas imagePath="death_screens.png" width="3000" height="500">
-	<SubTexture name="mario0000" x="0" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
-	<SubTexture name="mario0001" x="500" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
-	<SubTexture name="sonic0000" x="1000" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
-	<SubTexture name="sonic0001" x="1500" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
-	<SubTexture name="tails0000" x="2000" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
-	<SubTexture name="tails0001" x="2500" y="0" width="500" height="500" frameX="-0" frameY="-0" frameWidth="500" frameHeight="500"/>
-</TextureAtlas>
