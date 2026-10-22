@@ -1,6 +1,6 @@
 # Five Night's at Sonic's (HaxeFlixel)
 
-![fnascover](https://files.catbox.moe/cyl12k.png)
+![fnascover](https://static.wikia.nocookie.net/five-nights-at-freddys-fangames/images/7/7d/FiveNightsatSonics_GameJoltCover.png/revision/latest?cb=20240925051643)
 
 # About
 
